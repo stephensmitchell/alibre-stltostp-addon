@@ -21,6 +21,18 @@
     <Page Remove="AlibreAddOn - Copy\**" />
   </ItemGroup>
   <ItemGroup>
+    <None Remove="logo.ico" />
+    <None Remove="stltostp.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="logo.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="stltostp.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
     <None Include="AlibreAddOn.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -46,9 +58,6 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="config.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="Icons\logo.ico">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
