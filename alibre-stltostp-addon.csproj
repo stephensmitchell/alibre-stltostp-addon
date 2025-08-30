@@ -40,10 +40,6 @@
     <PackageReference Include="IronPython.StdLib" Version="3.4.2" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="alibre-api">
-      <HintPath>C:\Program Files\Alibre Design 28.1.0.28223\Program\alibre-api.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="AlibreAddOn">
       <HintPath>C:\Program Files\Alibre Design 28.1.0.28223\Program\AlibreAddOn.dll</HintPath>
       <Private>False</Private>
