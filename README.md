@@ -25,6 +25,10 @@ N/A
 
 See Releases for the installer and portable .zip file.
 
+# Documentation
+
+N/A
+
 ### Additional Resources
 
 N/A
